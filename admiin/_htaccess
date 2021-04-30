@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^C?$ Certificat.php
+RewriteRule ^V?$ Vision.php
+RewriteRule ^M?$ Mission.php
+RewriteRule ^VA?$ Valeur.php
+RewriteRule ^T?$ Ticket.php
+RewriteRule ^A?$ About.php
+RewriteRule ^U?$ Upload.php

@@ -1,0 +1,108 @@
+/* HEADER */
+.header {
+    width:  100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color : rgba(0,0,0, 0);
+    position: fixed;
+    top:0 ;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color:white;
+    font-family: 'Montserrat', 'sans-serif';
+    float: left;
+    margin-left: 30px ;
+}
+
+.header .header-menu {
+    float : right ;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: white;
+}
+.header .header-menu a:hover {
+    color: #55E6C1 ;
+}
+
+/* Banner */
+.banner {
+    margin-top: -30px;}
+
+.banner .banner-img {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width :100%;
+    text-align :center; 
+    top : 30%
+
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+   color: white; 
+}
+
+/*About */
+
+.about .about-single-element .icon{
+    font-size :200px ;
+    /*text-align: center;*/
+}
+
+.about .about-single-element {
+    text-align: center;
+    align-content: center;
+}
+
+.about .about-single-element p{
+    text-align: left;
+    margin-top :20px;
+    margin-left: 10px;
+}
+
+/*Buy and sell*/
+.section {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.section .title {
+    text-align: center;
+}
+
+.section .subtitle {
+    text-align: center;
+
+}
+
+/*Footer*/
+.footer {
+    align-content: center;
+}
+.footer .heading-site {
+    text-align: center ;
+}
+.footer .footer-informations {
+    text-align :"center" ;
+    margin-top: 30px;
+}
+.footer .footer-informations ul{
+    padding : 0;
+}
+.footer .footer-informations ul li{
+    display:inline-block ;
+    list-style-type: none ;
+    align-content: center;
+}
+.footer .footer-informations ul li:hover{
+    color: black;
+}

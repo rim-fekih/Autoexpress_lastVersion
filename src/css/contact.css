@@ -1,0 +1,32 @@
+/* HEADER */
+.header {
+    width:  100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color:black;
+    position: fixed;
+    top:0 ;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color : black;
+    font-family: 'Montserrat', 'sans-serif';
+    float: left;
+    margin-left: 30px ;
+}
+
+.header .header-menu {
+    float : right ;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: black;
+}
+.header .header-menu a:hover {
+    color: #55E6C1 ;
+}
